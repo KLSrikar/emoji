@@ -1,0 +1,219 @@
+body{
+    
+    background-image:radial-gradient(aliceblue,yellow,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /transform:matrix(1,-0.3,0,1,0,0);/
+    background-color: red;
+}
+header{
+    animation: header 2s infinite;
+}
+#ear1:hover{
+    background-image: radial-gradient(red,yellow) ;
+}
+#ear2:hover{
+    background-image: radial-gradient(red,yellow) ;
+}
+#face{
+    height: 220px;
+    width: 220px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 400px;
+    position: relative;
+}
+.lefteye{
+    height: 130px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:papayawhip;
+    margin-top:15px;
+    margin-left:20px;
+    position: absolute;
+}
+.righteye{
+    height: 130px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:papayawhip;
+    margin-top:15px;
+    margin-left:100px;
+    position: absolute;
+}
+#reye{
+    height: 70px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:black;
+    margin-top:-10px;
+    margin-left:125px;
+    position: absolute;
+}
+#leye{
+    height: 60px;
+    width: 50px;
+    position: relative;
+    left:50px;
+    top: 80px;
+    border: 10px solid black;
+    border-radius: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    animation: wink 2s infinite;
+    animation-direction: reverse;
+}
+.cheek1{
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    background-color:papayawhip;
+    margin-top:130px;
+    margin-left:-10px;
+    position: absolute;
+}.cheek2{
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    transform: rotate(-33deg);
+    background-color:papayawhip;
+    margin-top:130px;
+    margin-left:130px;
+    position: absolute;
+}
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    background-color:papayawhip;
+    margin-top:100px;
+    margin-left:37px;
+    position: absolute;
+}
+#mouth1{
+    height: 30px;
+    width: 150px;
+    border-radius: 30%;
+    background-color:transparent;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #41220c;   
+    bottom: -85px;
+    margin-left: 35px;
+    position: relative;
+}
+#mouth2{
+    width: 100px;
+    height: 50px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: black;
+    position: relative;
+    left: 60px;
+    top: 84px;
+}
+#mouth3{
+    width: 65px;
+    height: 30px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgb(166, 21, 21);
+    position: relative;
+    left: 78px;
+    top: 54px;
+}
+#ear1{
+    height: 120px;
+    width: 110px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    background-color:black;
+    transform: rotate(30deg);
+    margin-top:-70px;
+    margin-left:347px;
+    position: absolute;
+}
+#ear2{
+    height: 120px;
+    width: 110px;
+    border-radius: 50%;
+
+    background-color:black;
+    transform: rotate(-30deg);
+    margin-top:-70px;
+    margin-left:563px;
+    position: absolute;
+}
+#nose{
+    height: 35px;
+    width: 55px;
+    border-radius: 50%;
+    background-color:black;
+    transform:scale(30deg);
+    margin-top:70px;
+    margin-left:85px;
+    position: absolute;
+}
+@keyframes move{
+    50%{
+        left: 3.12em;  
+    }
+}
+@keyframes header{
+    50% {
+        transform: rotate(-15deg);
+}
+
+} 
+@keyframes wink 
+{
+    0%{
+        height: 60px;
+        width: 50px;
+        position: relative;
+        left:50px;
+        top: 80px;
+        border: 10px solid black;
+        border-radius: 100%;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    50%{
+        height: 60px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:black;
+        left: 60px;
+        top: 60px;
+    }
+    100%{
+    height: 60px;
+    width: 50px;
+    position: relative;
+    left:50px;
+    top: 80px;
+    border: 10px solid black;
+    border-radius: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+}
+marquee{
+    color: red;
+    text-shadow: 4px 4px 4px black;
+}
+#face:hover{
+    background-image: radial-gradient(red,yellow) ;
+}
+#reye:hover{
+    background-image: radial-gradient(red,yellow) ;
+}
+#nose:hover{
+    background-image: radial-gradient(red,yellow) ;
+}
